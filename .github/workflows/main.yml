@@ -17,8 +17,8 @@ jobs:
     # 每行一个{serv00服务器}，一个服务也可，末尾用,间隔，最后一个服务器末尾无需用,间隔
       ACCOUNTS: >
         [
-        {"RES":"y", "SSH_USER":"pengpingp912", "SSH_PASS":"Ggbondpx@12345", "REALITY":"pengpingp912.serv00.net", "SUUID":"", "TCP1_PORT":"", "TCP2_PORT":"", "UDP_PORT":"", "HOST":"s15.serv00.com", "ARGO_DOMAIN":"", "ARGO_AUTH":""},
-        {"RES":"y", "SSH_USER":"limingmingmini", "SSH_PASS":"Ggbondpx@12345", "REALITY":"limingmingmini.serv00.net", "SUUID":"", "TCP1_PORT":"", "TCP2_PORT":"", "UDP_PORT":"", "HOST":"s13.serv00.com", "ARGO_DOMAIN":"", "ARGO_AUTH":""}
+        {"RES":"n", "SSH_USER":"pengpingp912", "SSH_PASS":"Ggbondpx@12345", "REALITY":"pengpingp912.serv00.net", "SUUID":"", "TCP1_PORT":"", "TCP2_PORT":"", "UDP_PORT":"", "HOST":"s15.serv00.com", "ARGO_DOMAIN":"", "ARGO_AUTH":""},
+        {"RES":"n", "SSH_USER":"limingmingmini", "SSH_PASS":"Ggbondpx@12345", "REALITY":"limingmingmini.serv00.net", "SUUID":"", "TCP1_PORT":"", "TCP2_PORT":"", "UDP_PORT":"", "HOST":"s13.serv00.com", "ARGO_DOMAIN":"", "ARGO_AUTH":""}
         ]
     steps:
       - name: Checkout Repository
